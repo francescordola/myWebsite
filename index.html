@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <!--title in the bar-->
+  <title>Francesco Cordola</title>
+  <!-- P5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- JS -->
+  <script src="sketch.js"></script>
+  <!-- FONT -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!-- RESPONSIVE WEBSITE-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="grid-container">
+
+  <div class="name">
+    [ FRANCESCO CORDOLA ]</br>
+  </div>
+
+
+  <div class="text">
+    Hi, I am a communication designer recently graduated from the MA programm in Graphic Communication Design at Central
+    Saint Martins, London.</br>
+    </br>
+    I visualise ecosystems in the ruin of a shifting world using data to speculate about the evolution of our
+    planet.</br>
+    Please, feel free to get in touch for new collaborations, knowledge exchange or just to say hi.
+  </div>
+
+  <div class="work"> see my last work here (LINK HEROKU)</div>
+
+  <div class="mail">
+    contact me here (MAIL)</br>
+  </div>
+
+
+  <div id="canvas-show"></div>
+
+  <script>
+    var dots = window.setInterval(function () {
+      var wait = document.getElementById("wait");
+      if (wait.innerHTML.length > 2)
+        wait.innerHTML = "";
+      else
+        wait.innerHTML += ".";
+    }, 500);
+  </script>
+
+  <footer>
+    &copy;2020 - full website soon<span id="wait">.</span>
+  </footer>
+
+</body>
