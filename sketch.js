@@ -1,7 +1,7 @@
-var speed = 200;
-var diameter = 400;
-var x;
-var y;
+var speed = 300;
+var diameter = 300;
+var x = 200;;
+var y = 200;;
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
@@ -11,8 +11,8 @@ function windowResized() {
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('canvas-show');
-  x = 250;
-  y = random(0, 500);
+  // x = 200;
+  // y = 200;
   background(0);
   noStroke()
 }
