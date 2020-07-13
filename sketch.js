@@ -1,5 +1,5 @@
-var speed = 300;
-var diameter = 350;
+var speed = 250;
+var diameter = 400;
 var x;
 var y;
 
