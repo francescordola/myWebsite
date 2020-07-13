@@ -1,5 +1,5 @@
-var speed = 250;
-var diameter = 500;
+var speed = 200;
+var diameter = 400;
 var x;
 var y;
 
@@ -11,7 +11,7 @@ function windowResized() {
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('canvas-show');
-  x = 150;
+  x = 250;
   y = random(0, 500);
   background(0);
   noStroke()
