@@ -39,11 +39,18 @@ body {
 }
 
 .work {
-  padding-top: 20px;
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   grid-row: 3;
+}
+
+.text2 {
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  grid-row: 4;
 }
 
 .mail {
