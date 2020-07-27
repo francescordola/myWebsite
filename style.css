@@ -18,9 +18,9 @@
 
 .name {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
+  font-weight: 500;
   grid-row: 1;
 }
 
