@@ -19,24 +19,37 @@
 .bold {
   color: black;
   font-weight: 400;
+}
 
+.bold2 {
+  color: black;
+  font-weight: 400;
 }
 
 .name {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
   grid-row: 1;
 }
 
 .text {
-  padding-top: 20px;
+  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.text2 {
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   grid-row: 2;
+  grid-column: 1;
 }
+
 
 .work {
   font-size: 14px;
@@ -45,7 +58,7 @@
   grid-row: 3;
 }
 
-.text2 {
+.text3 {
   padding-top: 59px;
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
@@ -70,14 +83,21 @@
   z-index: -1;
 }
 
-
 /* FOOTER */
 footer {
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   margin-bottom: 10px;
-
   position: absolute;
   bottom: 0%;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+a:hover {
+  border-bottom-color: transparent;
 }
