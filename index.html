@@ -21,69 +21,79 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="grid-container">
+<body>
 
-  <div class="text">
-    HI! <br>
-    I'm <span class="name">FRANCESCO CORDOLA</span>, designer and researcher exploring relationships
-    between data, nature and emerging technologies.</br>
-    📈🌿🤖
-    </br>
-    </br>
-  </div>
-  <div class="text2">
+  <article class="grid-container">
 
-    I'm a fresh graduate from the Master in Graphic Communication Design at Central Saint Martins, London. </br>
-    <a href="https://graduateshowcase.arts.ac.uk/projects/3018/cover" class="bold2">Graduate Showcase
-      2020</a>
-    </br>
-    </br>
-  </div>
-
-  <div class="work">
-
-    </br>Have a look at my work:</br>
-    . <a href="https://autumn-season.com/" class="bold">Autumn Season</a>
-    </br>
-    . <a href="https://vimeo.com/437411684" class="bold">Moving in the wind 1</a> -
-    <a href="https://vimeo.com/437410164" class="bold">2</a>
-    </br>
-    . <a href="https://www.behance.net/gallery/103155489/Unknown-Quantities-7" class="bold">UQ#7</a>
-    </br>
-    . <a href="https://www.behance.net/gallery/63962369/ATLANTE-DEL-CIBO-DI-TORINO-METROPOLITANA" class="bold">Atlas of
-      Food</a>
-    </br>
-    . <a href="https://www.behance.net/gallery/62758265/ATLANTE-DEL-CIBO-Report" class="bold">Atlas of Food - report</a>
-    </br>
-    . <a href="https://www.behance.net/gallery/60880507/Uno-nessuno-32000" class="bold">Uno Nessuno 32000</a>
-    </br>
-  </div>
-
-  <script>
-    var dots = window.setInterval(function () {
-      var wait = document.getElementById("wait");
-      if (wait.innerHTML.length > 2)
-        wait.innerHTML = "";
-      else
-        wait.innerHTML += ".";
-    }, 500);
-  </script>
-
-  <footer>
-    <div class="text3"> Please, feel free to get in
-      touch. <br>
-      I'm always up for a chat! <br>
-      <a href="mailto:hello@francescordola.com" class="bold">EMAIL</a>
-      <a href="https://www.instagram.com/francescordola/" class="bold">INSTAGRAM</a>
-      <a href="https://www.linkedin.com/in/francesco-cordola/" class="bold">LINKEDIN</a>
+    <div class="text">
+      HI! I'm <span class="name">FRANCESCO CORDOLA</span>, designer and researcher exploring relationships
+      between data, nature and emerging technologies.</br>
+      (📈🌿🤖)
+      </br>
+      </br>
+      I'm a fresh graduate from the Master in Graphic Communication Design at Central Saint Martins, London. <br>&rarr;
+      <a href="https://graduateshowcase.arts.ac.uk/projects/3018/cover" class="bold"> Graduate Showcase
+        2020</a>
     </div>
+
+    <!-- <div class="text2"> </div> -->
+
+    <div class="work" id="thumbwrap">
+
+      <a class="thumb link2" href="https://autumn-season.com/">Autumn Season<span><img
+            src="autumn season.jpg"></span></a>
+      </br>
+      <a class="thumb link2" href="https://vimeo.com/437411684">Moving in the wind 1
+        -<span><img src="moving in the wind.jpg"></span></a>
+      <a class="thumb link2" href="https://vimeo.com/437410164">2<span><img src="moving in the wind.jpg"></span></a>
+      </br>
+      <a class="thumb link2" href="https://www.behance.net/gallery/103155489/Unknown-Quantities-7">UQ#7<span><img
+            src="uq.jpg"></span></a>
+      </br>
+      <a class="thumb link2"
+        href="https://www.behance.net/gallery/63962369/ATLANTE-DEL-CIBO-DI-TORINO-METROPOLITANA">Atlas
+        of food<span><img src="atlas of food.jpg"></span></a>
+      </br>
+      <a class="thumb link2" href="https://www.behance.net/gallery/62758265/ATLANTE-DEL-CIBO-Report">Atlas of Food -
+        report<span><img src="report.jpg"></span></a>
+      </br>
+
+    </div>
+
+    <script>
+      var dots = window.setInterval(function () {
+        var wait = document.getElementById("wait");
+        if (wait.innerHTML.length > 2)
+          wait.innerHTML = "";
+        else
+          wait.innerHTML += ".";
+      }, 500);
+    </script>
+
     <div id="canvas-show"></div>
-    <br>
-    &copy; 2020 (WIP - full website soon<span id="wait">.</span>)
-  </footer>
+
+    <footer>
+      <div class="text3"> Please, feel free to get in
+        touch. </br>I'm always up for a chat!</br>
+        &rarr; <a href="mailto:hello@francescordola.com" class="link3">EMAIL</a>
+        <a href="https://www.instagram.com/francescordola/" class="link3">INSTAGRAM</a>
+        <a href="https://www.linkedin.com/in/francesco-cordola/" class="link3">LINKEDIN</a>
+      </div>
+
+      &copy; 2020 (WIP - full website soon<span id="wait">.</span>)
+    </footer>
+
+  </article>
 
 </body>
