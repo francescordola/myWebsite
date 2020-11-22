@@ -7,15 +7,11 @@ body {
   min-height: 100%;
   margin: 2px;
   display: grid;
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
-  /* grid-column-gap: 15px; */
-  /* grid-row-gap: 1em; */
 }
 
-.home-title {
+header {
   margin-bottom: 2em;
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
@@ -27,125 +23,17 @@ body {
 }
 
 @media (min-width:55rem) {
-  .home-title {
+  header {
     grid-column: 2/6;
   }
 }
 
-.my-name {
-  margin: 0;
-  font-size: 25px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  grid-row: 1;
-}
-
-.emoji {
-  font-size: 25px;
-  font-family: 'Work Sans', sans-serif;
-  color: black;
+b {
   font-weight: 600;
 }
 
 .link-graduate {
   font-size: 25px;
-  font-family: 'Work Sans', sans-serif;
-  color: black;
-  font-weight: 600;
-}
-
-/* @media (min-width:55rem) {
-  .link-graduate {
-    grid-column: 2/6;
-  }
-} */
-
-.home-work-title {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  grid-row: 2;
-  grid-column: 1/13;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.home-work {
-  grid-row: 3;
-  grid-column: 3/13;
-}
-
-.project-title {
-  font-size: 15px;
-  padding-bottom: 2em;
-  line-height: 1.6;
-  font-family: 'Work Sans', sans-serif;
-  z-index: 1;
-}
-
-.home-writing-title {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  grid-row: 4;
-  grid-column: 1/13;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.home-writing {
-  grid-row: 5;
-  grid-column: 3/13;
-}
-
-.writing-title {
-  font-size: 15px;
-  padding-bottom: 2em;
-  line-height: 1.6;
-  font-family: 'Work Sans', sans-serif;
-  z-index: 1;
-}
-
-.thumb span {
-  position: absolute;
-  visibility: hidden;
-  width: 50%;
-  left: 0px;
-  top: 0px;
-}
-
-.thumb:hover span {
-  visibility: visible;
-  z-index: 1;
-  left: 50%;
-  top: 27%;
-  z-index: -1;
-}
-
-img {
-  width: 100%;
-}
-
-@media (min-width:55rem) {
-  .work {
-    grid-column: 4/13;
-  }
-}
-
-/* .text3 {
-  font-size: 14px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
-  grid-row: 4;
-  grid-column: 2/12;
-
-} */
-
-.link3 {
-  font-size: 15px;
-  color: black;
-  font-weight: 500;
-  font-family: 'Work Sans', sans-serif;
 }
 
 #canvas-show {
@@ -180,6 +68,10 @@ footer {
 a {
   text-decoration: none;
   border-bottom: 2px solid black;
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a:hover {
