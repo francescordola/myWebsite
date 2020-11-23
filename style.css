@@ -51,8 +51,6 @@ footer {
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  /* position: absolute; */
-  /* bottom: 0%; */
   display: block;
   margin-top: auto;
   grid-row: 6;
