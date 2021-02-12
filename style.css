@@ -19,11 +19,11 @@ h1 {
 }
 .site-header {
   grid-row: 1;
-  grid-column: 0.07692308;
+  grid-column: 1/13;
 }
 @media (min-width: 55rem) {
   .site-header {
-    grid-column: 0.33333333;
+    grid-column: 2/6;
   }
 }
 b {
@@ -49,11 +49,11 @@ footer {
   display: block;
   margin-top: auto;
   grid-row: 6;
-  grid-column: 0.07692308;
+  grid-column: 1/13;
 }
 @media (min-width: 55rem) {
   footer {
-    grid-column: 0.15384615;
+    grid-column: 2/13;
   }
 }
 a {
