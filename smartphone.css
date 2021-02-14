@@ -43,4 +43,8 @@
     grid-row: 6;
     grid-column: 1/13;
   }
+  section #project-6 {
+    grid-row: 7;
+    grid-column: 1/13;
+  }
 }
