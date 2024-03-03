@@ -40,7 +40,7 @@ body {
   font-family: 'IBM Plex Mono',
   monospace;
   text-decoration: underline;
-  text-decoration-style:dotted;
+  text-decoration-style:solid;
 }
 
 /* .site-header a:hover {
